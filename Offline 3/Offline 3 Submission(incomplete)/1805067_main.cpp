@@ -184,7 +184,7 @@ void capture() {
     Vector tempCamLook = camLook;
     tempCamLook.normalize();
     Vector topLeftPixel = camPos + tempCamLook * nearDistance - camRight * (width / 2.0) + camUp * (height / 2.0);
-   
+    
     int nearestObjectIndex;
     double paramT, paramTMin;
     
